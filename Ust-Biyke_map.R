@@ -10,7 +10,7 @@ library(ggsn)           # scalebar() north2()
 library(grDevices)      # cairo_pdf()
 
 # Read in site location data in tab-separated format: site name, latitude, longitude (decimal degrees)
-sites <- read.csv("Ust-Biyke_sites.csv", sep="\t")
+sites <- read.csv("Ust-Biyke_sites.csv", sep=",")
 
 # NOTE: Check the working directory!
 
