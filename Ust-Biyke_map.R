@@ -14,7 +14,7 @@ sites <- read.csv("Ust-Biyke_sites.csv", sep=",")
 
 # NOTE: Check the working directory!
 
-# Download in shapefile of Natural Earth Data admin0 borders
+# Download shapefile of Natural Earth Data admin0 borders
 download.file(
   "https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/ne_10m_admin_0_countries.zip", 
   "ne_10m_admin_0_countries.zip", "auto")
