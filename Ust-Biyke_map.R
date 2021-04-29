@@ -49,7 +49,7 @@ figure1 <- ggmap(map) +
   scalebar(x.min=81.7, x.max=90, y.min=47.8, y.max=81.5, dist = 100, height = 0.003, 
            st.dist = 0.003, st.size=6, dist_unit = "km",
            transform = TRUE, model = "WGS84", location = "bottomleft") +
-  annotate("text", label= "Kazakhstan", x=83, y=49, size=6, color="black", fontface="italic") +
+  annotate("text", label= "Kazakhstan", x=83, y=49, size=6, color="black", fontface="italic") + # Italics does not work, possibly due to grDevices::cairo_pdf()
   annotate("text", label= "China", x=87.4, y=48, size=6, color="black", fontface="italic") +
   annotate("text", label= "Mongolia", x=89.5, y=49, size=6, color="black", fontface="italic") +
   annotate("text", label= "Russia", x=83, y=52, size=6, color="black", fontface="italic") +
